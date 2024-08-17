@@ -55,7 +55,7 @@ const EventForm = ({ event, closeForm }) => {
           onChange={(e) => setDescription(e.target.value)}
         />
       </div>
-      <div className="form-row">
+      {/* <div className="form-row">
         <div className="form-group">
           <label htmlFor="start">Start</label>
           <input
@@ -76,8 +76,8 @@ const EventForm = ({ event, closeForm }) => {
             required
           />
         </div>
-      </div>
-      <div className="form-group">
+      </div> */}
+      {/* <div className="form-group">
         <label htmlFor="location">Location</label>
         <input
           id="location"
@@ -85,7 +85,7 @@ const EventForm = ({ event, closeForm }) => {
           value={location}
           onChange={(e) => setLocation(e.target.value)}
         />
-      </div>
+      </div> */}
       <div className="form-group">
         <label htmlFor="category">Category</label>
         <select
@@ -99,7 +99,7 @@ const EventForm = ({ event, closeForm }) => {
           <option value="Personal">Personal</option>
         </select>
       </div>
-      <div className="form-group">
+      {/* <div className="form-group">
         <label htmlFor="participants">Participants (comma-separated)</label>
         <input
           id="participants"
@@ -107,7 +107,7 @@ const EventForm = ({ event, closeForm }) => {
           value={participants}
           onChange={(e) => setParticipants(e.target.value)}
         />
-      </div>
+      </div> */}
       <div className="form-actions">
         <button type="submit" className="btn-save">
           Save

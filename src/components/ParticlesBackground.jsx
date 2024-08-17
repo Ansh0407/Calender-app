@@ -1,15 +1,14 @@
-// components/ParticlesBackground.jsx
+
 import React from 'react';
 import Particles from 'react-tsparticles';
 import './ParticlesBackground.css';
 
 const ParticlesBackground = () => {
   const particlesInit = async (main) => {
-    // Initialize particles options if needed
   };
 
   const particlesLoaded = (container) => {
-    // Handle particles loaded event if needed
+
   };
 
   return (
